@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'Gilroy';
+    src : url(../font/Gilroy-Regular.ttf)
+ }
+*{margin:0;
+  padding: 0;}
+
+  body {
+    background-color: #F6F6F6;
+    overflow: hidden;
+    height: 100vh;
+
+  }
+
+
+
+  .dropbtn {
+    font-family: 'Gilroy';
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #F6F6F6;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #F6F6F6;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F6F6F6;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+
+  
+  .dropbtn1 {
+    font-family: 'Gilroy';
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #F6F6F6;
+  }
+  
+  .dropbtn1:hover, .dropbtn1:focus {
+    background-color: #F6F6F6;
+  }
+  
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #F6F6F6;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown1 a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  h1 {
+    font-family: 'Gilroy';
+font-size: 46px;
+font-weight: 700;
+line-height: 77px;
+
+
+  }
+  #text4 {
+    font-family: 'Gilroy';
+font-size: 30px;
+font-weight: 500;
+line-height:28px;
+
+
+
+  }
+  #a5{
+font-family: 'Gilroy';
+font-size: 25px;
+font-weight: 500;
+line-height: 28px;
+color: #4461F2;
+text-decoration: none;
+
+
+  }
+#img1 {
+ width:360px;
+height: 400px;
+
+
+}
+input{
+padding-left: 10px;
+width: 360px;
+height: 50px;
+font-family: 'Gilroy';
+font-size: 20px;
+border: none;
+outline: none;
+color: #4F555A;
+background: #EAF0F7;
+border-radius: 10px;
+
+
+}
+.textright{
+    font-family: 'Gilroy';
+font-size: 14px;
+font-weight: 500;
+
+text-align: right;
+color: #C7C7C7;
+
+
+
+}
+.button1{
+    width: 360px;
+height: 50px;
+font-family: 'Gilroy';
+font-weight: 700;
+font-size: 20px;
+border: none;
+outline: none;
+color: white;
+background: #4461F2;
+
+border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+li>a {
+    font-family: "Gilroy";
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.06em;
+
+color:black;
+}
+.cont_ul li >a{
+    font-family: "Gilroy";
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.06em;
+
+color:black;
+}
+#a_1 {
+    font-family:"Gilroy";
+font-size: 17px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.06em;
+text-align: left;
+color: #4461F2;
+
+}
+
+
