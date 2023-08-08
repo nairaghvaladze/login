@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src : url(../font/Roboto-Regular.ttf);
+ }
+body{
+    background: #E5E5E5;
+}
+.main_container{
+    position: absolute;
+width: 414px;
+height: 896px;
+background: #FFFFFF;
+box-shadow: -3px -4px 28px rgba(103, 103, 103, 0.25), 6px 6px 25px rgba(103, 103, 103, 0.25);
+border-radius: 15px;
+}
+.main_container1{
+    position: absolute;
+width: 414px;
+height: 896px;
+background: #383838;
+box-shadow: -3px -4px 28px rgba(103, 103, 103, 0.25), 6px 6px 25px rgba(103, 103, 103, 0.25);
+border-radius: 15px;
+}
+
+.text2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 31px;
+line-height: 36px;
+text-align:center;
+color: #000000;
+
+}
+.text1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-align:center;
+color: #414141;
+}
+
+.container {
+    
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 50px;
+}
+.container1 {
+    
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 50px;
+}
+.container .toggle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 244px;
+    height: 49px;
+    background-color: grey;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+.container1 .toggle1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 244px;
+    height: 49px;
+    background-color: grey;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+.container .toggle.active {
+    background-color:grey;
+}
+.container1 .toggle1.active {
+    background-color: #f7f4f4;
+}
+.container .toggle .toggle-button {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 133px;
+    height:49px;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 24.5px;
+    background: #FFFFFF;
+   
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.container1 .toggle1 .toggle-button1 {
+    position: absolute;
+    top:0px;
+    left:133px;
+    width: 133px;
+    height:49px;
+    background: #555252;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 24.5px;
+   
+   
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.toggle::before {
+    content: "light   dark";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    word-spacing: 50px;
+   box-sizing: border-box;
+
+}
+.toggle1::before {
+    content: "light   dark";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    word-spacing: 50px;
+   box-sizing: border-box;
+
+}
+.container .toggle.active .toggle-button {
+    left:111px;
+    
+}
+.container1 .toggle1.active .toggle-button1 {
+    left:111px;
+    
+}
+.text {
+    position: absolute;
+    
+
+    left:0;
+    color: #747474;
+}
+
+
+.text3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    color: #363636;
+    text-align:center;
+    top:50px;
+    left:50%;
+    }
+    .text4 {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    text-align:end;
+    right:0;
+    color: #747474;
+    }
+    .text6 {
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-end;
+    
+    color: #D3D3D3;
+    }
+    .text61 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    }
+    .right{
+        margin-left:280px;
+        position:abolute; 
+        background: #4D4D4D;
+        height: 40px;
+        width: 46px;
+    box-shadow: -2px -2px 4px rgba(244, 244, 244, 0.25), 2px 2px 4px rgba(255, 255, 255, 0.25);
+      border-radius:50%;
+     padding:8px 15px ;
+     cursor: pointer;
+        
+    }
+    
+    .footer1{
+        display:flex;  
+        
+        margin-top: 370px;
+        
+    }
+    .right1{
+        margin-left:280px;
+     
+        
+        height: 40px;
+        width: 46px;
+        background: #FFFFFF;
+        box-shadow: -2px -2px 4px rgba(103, 103, 103, 0.25), 2px 2px 4px rgba(100, 100, 100, 0.25);
+        border-radius:50%;
+        padding:5px 15px ;
+        cursor: pointer;
+    }
